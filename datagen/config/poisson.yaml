@@ -1,0 +1,13 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/poisson
+  save_lhs: False
+  save_rhs: False
+  has_node_features: false
+  is_fixed_topology: false
+mesh_file: data/objs/pipe_high_res.obj
+rng: 42
+ratio: 0.1 # ratio of the number of points to set as Dirichlet boundary

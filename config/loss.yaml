@@ -1,0 +1,12 @@
+batch_less: false
+loss:
+  # Possible values are:
+  name: RelativeL2Loss_ANorm
+  # name: L2Loss_ANorm
+  # name: RelativeL2Loss_PlainNorm
+  # name: CosineSimilarityLoss_ANorm
+  # name: CosineSimilarityLoss_PlainNorm
+  # name: ConjGradLoss_ANorm
+  # name: ConjGradLoss_PlainNorm
+  # name: NifLoss_Norm
+  params:

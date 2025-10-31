@@ -1,0 +1,18 @@
+# This default settings resulting in a 6276x6276 matrix, with sparsity=0.002
+
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/heat
+  save_lhs: False
+  save_rhs: False
+mesh_file: data/objs/bunny_low_res.obj
+rng: 42
+var: 0.99
+eps: 0.0001
+tetrahedralize:
+  enable: true
+  visualize: 5
+  switches: "pq1.1/0Ya3e-4V"

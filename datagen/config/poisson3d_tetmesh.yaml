@@ -1,0 +1,20 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/poisson_tetmesh
+  save_lhs: False
+  save_rhs: False
+  is_fixed_topology: false
+  has_shared_features: false
+
+# mesh_file: data/objs/pipe_high_res.obj
+mesh_folder: generated/tetmesh # Path to your preprocessed data.
+
+
+seed_count: 1 # pick 3 points in graph for dbc clustering.
+grow_iteration: 2 # number of iterations to grow the graph
+
+rng: 42
+visualize: false

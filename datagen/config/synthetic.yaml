@@ -1,0 +1,20 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/synthetic
+  save_lhs: false
+  save_rhs: false
+  has_shared_features: false
+  has_node_features: false
+  is_fixed_topology: false
+
+random_state: 42
+ood: false
+sparsity: 3e-4 # Actual sparsity = 0.0021
+
+algebra:
+  low:  10240  # Smallest mesh size
+  high: 20480  # Largest mesh size
+  epsilon: 1e-5 # Small Identity to guarantee SPD.

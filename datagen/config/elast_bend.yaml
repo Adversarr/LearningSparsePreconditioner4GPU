@@ -1,0 +1,18 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/elast_bend
+  save_lhs: False
+  save_rhs: False
+  block_size: 3
+rng: 42
+
+nx: 4 # beam's length
+resolution: 16 # beam's resolution
+density: 1e3
+youngs: 3e6
+poisson: 0.4
+time_step: 0.01
+visualize: true

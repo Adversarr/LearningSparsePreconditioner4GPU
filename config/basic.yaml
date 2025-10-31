@@ -1,0 +1,26 @@
+defaults:
+  - gnn
+  - data
+  - trainer # for dataset splitting and batch_size
+  - loss
+  - _self_
+
+exp_name: ???
+batch_size: 4
+data:
+  prefix: generated/${exp_name}
+epsilon: 3.0e-3 # Cannot be too small.
+check_converge: true
+pretrained: ""
+seed: 42
+
+check_methods:
+  - none
+  - ic
+  - ainv
+  - fsai
+  - diagonal
+check_devices:
+  - cpu
+  # # Note: in most cases, directly measure cuda time while training is meaning less.
+  # - cuda

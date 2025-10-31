@@ -1,0 +1,26 @@
+split:
+  train: 0.8
+  val: 0.2
+batch_size: ???
+epsilon: ???
+test_max_iter: 1000
+inspect_norms: true
+optimizer:
+  name: adamw
+  params:
+    lr: 1e-3
+    weight_decay: 3e-3
+scheduler:
+  name: exp
+  params:
+    gamma: 0.99
+trainer:
+  fast_dev_run: false
+  max_epochs: 500
+  check_val_every_n_epoch: 5
+  accumulate_grad_batches: 1
+  gradient_clip_val: 10
+
+
+checkpoint:
+  every_n_epochs: 1

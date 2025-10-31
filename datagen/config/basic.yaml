@@ -1,0 +1,10 @@
+basic:
+  max_count: 1000
+  block_size: 1
+  has_shared_features: true
+  has_node_features: true
+  is_fixed_topology: true
+  save_lhs: true
+  save_rhs: true
+  prefix: ???
+  dry_run: false

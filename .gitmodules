@@ -1,0 +1,6 @@
+[submodule "ext/AMGX"]
+	path = ext/AMGX
+	url = https://github.com/NVIDIA/AMGX.git
+[submodule "ext/pyamgx"]
+	path = ext/pyamgx
+	url = https://github.com/Adversarr/pyamgx.git

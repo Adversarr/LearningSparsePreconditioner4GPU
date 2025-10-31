@@ -1,0 +1,13 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/heat_objmesh
+  save_lhs: False
+  save_rhs: False
+  has_shared_features: False
+  is_fixed_topology: False
+
+mesh_folder: generated/raw_multimesh # Path to your preprocessed data.
+eps: 1e-3

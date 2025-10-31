@@ -1,0 +1,14 @@
+data:
+  is_fixed_topology: True
+  load_into_memory: True
+  block_size: 1
+  has_shared_features: True
+  use_node_features: True
+  use_matrix_as_edge_feature: True
+  use_mask_as_node_feature: True
+  use_node_features_as_edge_feature: False
+  use_edge_features_as_node_feature: "disable"
+  use_random_rhs: True
+  # normalize_matrix: True
+  normalize_matrix: mean
+  prefix: ???

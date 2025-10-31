@@ -1,0 +1,18 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/heat_tetmesh
+  save_lhs: False
+  save_rhs: False
+  has_shared_features: False
+  is_fixed_topology: False
+
+mesh_folder: generated/tetmesh # Path to your preprocessed data.
+
+# Random mesh density
+min_density: 1e-4
+max_density: 5e-4
+rng: 42
+random_field: true

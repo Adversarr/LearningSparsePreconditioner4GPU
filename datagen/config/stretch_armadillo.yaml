@@ -1,0 +1,19 @@
+defaults:
+  - basic
+  - _self_
+
+basic:
+  prefix: generated/stretch_armadillo
+  save_lhs: False
+  save_rhs: False
+  block_size: 3
+  max_count: 800
+rng: 42
+
+
+mesh_path: data/objs/armadillo_low_res.obj # Path to your preprocessed data.
+density: 1e2
+youngs: 3e6
+poisson: 0.33
+time_step: 0.002
+visualize: true

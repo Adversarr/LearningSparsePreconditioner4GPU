@@ -1,0 +1,43 @@
+gnn_features: 16
+gnn_mlp_layers: 2
+gnn:
+  node_encoder:
+    pre_norm: none
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+
+  edge_encoder:
+    pre_norm: none
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+
+  node_decoder:
+    pre_norm: none
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+
+  edge_decoder:
+    pre_norm: none
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+
+  num_mp_layers: 4
+  node_residual: true
+  edge_residual: true
+  node_features: ${gnn_features}
+  edge_features: ${gnn_features}
+  node_mlp:
+    pre_norm: layer
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+  edge_mlp:
+    pre_norm: layer
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+  msg_mlp:
+    pre_norm: layer
+    hidden_channels: ${gnn_features}
+    num_layers: ${gnn_mlp_layers}
+
+  msg_norm: true
+  aggr: add

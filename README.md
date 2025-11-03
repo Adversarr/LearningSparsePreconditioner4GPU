@@ -1,4 +1,5 @@
 # 🚀 Learning Sparse Approximate Inverse Preconditioners for Conjugate Gradient Solvers on GPUs
+[![arXiv](https://img.shields.io/badge/arXiv-2510.27517-ff0000.svg)](https://arxiv.org/abs/2510.27517)
 
 > [Zherui Yang](https://github.com/Adversarr) and [Zhehao Li](https://zhehaoli1999.github.io/) and [Kangbo Lyu](https://github.com/combolv) and Yixuan Li and [Tao Du](https://taodu-eecs.github.io/) and [Ligang Liu](https://staff.ustc.edu.cn/~lgliu/)
 
